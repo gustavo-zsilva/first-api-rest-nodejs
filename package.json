@@ -1,0 +1,27 @@
+{
+  "name": "first-api-rest-nodejs",
+  "version": "1.0.0",
+  "description": "My First API made with Javascript and NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavo-zsilva/first-api-rest-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavo-zsilva/first-api-rest-nodejs/issues"
+  },
+  "homepage": "https://github.com/gustavo-zsilva/first-api-rest-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
